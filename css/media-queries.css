@@ -1,0 +1,25 @@
+@media only screen and (max-width:1105px) {
+  
+  .jumbotron{
+    background-size: 100% 100%;
+    min-height: 250px;
+  }
+
+}
+@media only screen and (max-width:766px) {
+  .jumbotron{
+    min-height: 150px;
+  }
+  .container-fluid .navbar-header{
+margin-right: -20px;
+}
+  /*------ Drop Down menu FAQ's -------*/
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a{
+    color: white;
+    font-weight: 300;
+    font-family: Helvetica;
+  }
+  .navbar-default .navbar-text{
+    margin-left: 5px;
+  }
+}

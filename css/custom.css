@@ -1,0 +1,64 @@
+body { padding-bottom: 70px; }
+/*--------- Nav----------*/
+.container-fluid .navbar-header{
+margin-right: 50px;
+}
+.navbar .container-fluid{
+ background-color:#358fc4;
+}
+.navbar-default{
+  border-color: #358fc4;
+}
+.navbar-default .navbar-nav > li > a{
+  margin-top: 4px;
+  font-family: Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 15px;
+  margin-bottom: 1px;
+}
+.navbar-default .navbar-text{
+  font-family: Helvetica;
+  font-weight: 100;
+  text-shadow: 1px 1px rgba( 5, 4, 4, 0.922 );
+  color: #ffffff;
+  font-size: 24px
+}
+.navbar-default .navbar-nav>.open>a{
+
+  background-color: #ffffff
+}
+.navbar-toggle{
+background-color: white;
+  margin-top: 15px;
+}
+
+/*---------Jumbo------------*/
+.jumbotron{
+  background-position: center;
+  background-image: url(images/Banner1.jpg);
+  background-repeat: no-repeat;
+  min-height: 350px;
+  background-size: 100% 100%;
+  margin-top: -20px;
+}
+
+/*----------Content----------------*/
+.content{
+    width: 100%;
+}
+.side-bar{
+    background-color: #f7f7f7;
+    min-height: 400px;
+}
+.side-bar h4, p{
+    margin-top: 1em;
+    padding: .4em 0 0 .4em;
+}
+/*--------Footer----------------*/
+.footer{
+    background-color: #358fc4;
+    color: #fff;
+    font-weight: 150;
+    text-align: center;
+}
